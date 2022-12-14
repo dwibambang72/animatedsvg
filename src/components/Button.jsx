@@ -16,7 +16,7 @@ const STYLES = [
 export const Button = ({
   children,
   type,
-  onclick,
+  onClick,
   buttonStyle,
   buttonSize
 }) => {
