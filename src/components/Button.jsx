@@ -8,6 +8,15 @@ const STYLES = [
   "btn--warning--solid",
   "btn--danger--solid",
   "btn--success--solid",
-  "btn--primary--solid",
-
+  "btn--primary--outline",
+  "btn--warning--outline",
+  "btn--danger--outline",
+  "btn--success--outline",
 ]
+
+
+export const Button = ({
+  children,
+  type,
+  onclick,
+  
