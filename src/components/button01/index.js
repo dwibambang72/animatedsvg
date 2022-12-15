@@ -7,7 +7,11 @@ import { Button } from "./components/Button";
 function App() {
   return (
     <div className="App">
-      <Button onClick={}>Buy Now </Button>
+      <Button onClick={() => {console.log("You Clicked on Me!)"}}
+        type="button"
+        buttonStyles="btn--primary--outline"
+        buttonSize="btn--large"
+      >Buy Now </Button>
     </div>
   );
 }
